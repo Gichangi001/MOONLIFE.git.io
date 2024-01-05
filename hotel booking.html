@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hotel booking page</title>
+	<style>
+              body {
+                     background-image: url('images/ele.jpg');
+                     background-repeat: no-repeat;
+                     background-size: cover;
+                     color: white;
+              }
+       </style>
+</head>
+<body bgcolor="#90e0ef">
+	<TABLE width="100%" border="0" height="100%">
+		<tr>
+        <td width="170" >
+        <a href="homepage.html"><img src ="images/logo.JPG" height="130" width="185"></a></td>
+        <td  colspan="2" height="15"><h1><font face= "BRUSH SCRIPT MT"><marquee>ESCAPE THE ORDINARY AND DISCOVE THE EXTRAORDINARY</marquee> </h1></font></td></tr>
+       
+
+        <tr><td colspan="3" >
+        <h1 align="center"><B><U><font face= "ITC Zapf Chancery" >MOONLEAF TOURISM AT NAIROBI CITY</font></U></B></h1></td></tr>
+        <tr>
+         <td colspan="3" >
+        <h1 align="center"><B><U><font face= "ITC Zapf Chancery" >HOME</font></U></B></h1></td></tr>
+
+             <tr>
+    <td colspan="3" align="CENTER"> 
+        | <a href="homepage.html" style="color: white; text-decoration: none;" onmouseover="this.style.color='GOLD';" onmouseout="this.style.color='white';" onclick="this.style.textDecoration='underline';">HOME</a> | &nbsp;
+        | <a href="heritage.html" style="color: white; text-decoration: none;" onmouseover="this.style.color='GOLD';" onmouseout="this.style.color='white';" onclick="this.style.textDecoration='underline';">HERITAGE</a> | &nbsp;
+        | <a href="hotel booking.html" style="color: white; text-decoration: none;" onmouseover="this.style.color='GOLD';" onmouseout="this.style.color='white';" onclick="this.style.textDecoration='underline';">HOTEL BOOKING</a> | &nbsp;
+        | <a href="gallery.html" style="color: white; text-decoration: none;" onmouseover="this.style.color='GOLD';" onmouseout="this.style.color='white';" onclick="this.style.textDecoration='underline';">GALLERY</a> |&nbsp;
+    </td>
+</tr>
+
+
+</TABLE>
+	<form>
+                <fieldset>
+                    <label for="name">First Name</label>
+				<input type="text" id="fname" name="fname" required>
+
+				  <label for="name">Second Name</label>
+				<input type="text" id="sname" name="sname" required>
+				
+				<label for="gender">Gender</label>
+				<select id="gender" name="gender" required>
+					<option value="">Select Gender</option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+
+				<br><hr>
+				
+				<label for="phone">Phone</label>
+				<input type="tel" id="phone" name="phone" required>
+				
+				
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="address">Address</label>
+				<input type="text">
+
+				<br><hr>
+				
+				<label for="dob">Date of arrival</label>
+				<input type="date" id="dob" name="dob" required>
+
+				<label for="dob">Date of departure</label>
+				<input type="date" id="dob" name="dob" required>
+				
+				<br><hr>
+				
+				<label for="hotel">Hotels</label>
+				<select id="hotel" name="hotel" required>
+					<option value="">Select Hotel</option>
+					<option value="Serena">Serena</option>
+					<option value="Hillton">Hillton</option>
+					<option value="Weston">Weston</option>
+					<option value="livik">livik</option>
+				
+				</select>
+				
+				<label for="Number of rooms">Number of rooms</label>
+				<input type="number" id="rooms" name="rooms" required>
+
+				<br><hr>
+				
+				
+				<button type="submit">Submit</button>
+                </fieldset>
+				
+			</form>
+
+</body>
+</html>
